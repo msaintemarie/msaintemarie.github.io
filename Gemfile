@@ -1,7 +1,4 @@
-source 'http://rubygems.org'
+# frozen_string_literal: true
 
-gem 'rough'
-gem 'jekyll-paginate'
-gem 'jekyll-geo-pattern'
-gem 'kramdown'
-gem 'jekyll-github-metadata'
+source "https://rubygems.org"
+gemspec
