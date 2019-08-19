@@ -1,0 +1,15 @@
+current directory: /Users/maxime/Dropbox/msaintemarie/vendor/cache/ruby/2.6.0/gems/mathn-0.1.0/ext/mathn/rational
+/usr/local/opt/ruby/bin/ruby -I /usr/local/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190819-49203-10o5fmf.rb extconf.rb
+creating Makefile
+
+current directory: /Users/maxime/Dropbox/msaintemarie/vendor/cache/ruby/2.6.0/gems/mathn-0.1.0/ext/mathn/rational
+make "DESTDIR=" clean
+
+current directory: /Users/maxime/Dropbox/msaintemarie/vendor/cache/ruby/2.6.0/gems/mathn-0.1.0/ext/mathn/rational
+make "DESTDIR="
+compiling rational.c
+linking shared-object mathn/rational.bundle
+
+current directory: /Users/maxime/Dropbox/msaintemarie/vendor/cache/ruby/2.6.0/gems/mathn-0.1.0/ext/mathn/rational
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 rational.bundle ./.gem.20190819-49203-gu36f3/mathn
