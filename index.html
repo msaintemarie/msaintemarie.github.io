@@ -1,0 +1,123 @@
+---
+layout: default
+---
+
+<!-- .slideshow -->
+<ul class="cb-slideshow" id="cb_slideshow" style="display:none">
+    <li><span>Image 01</span><div></div></li>
+    <li><span>Image 02</span><div></div></li>
+    <li><span>Image 03</span><div></div></li>
+    <li><span>Image 04</span><div></div></li>
+    <li><span>Image 05</span><div></div></li>
+    <li><span>Image 06</span><div></div></li>
+</ul> 
+<!-- /.slideshow --> 
+
+<!-- .wrapper --> 
+<div class="wrapper">
+
+<!--- .Content --> 
+    <section class="tab-content">
+        <div class="container">
+            <div class="row" style="border: 1px solid #93a1a1">   
+                <!-- profile -->
+                <div class="col-md-3 widget-profil">
+                        <!-- Profile Image -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+                             <div class="image-holder one" id="pic_prof_1" style="display:block">
+                                <img class="head-image up circle" src="images/img/up.png" width="150" height="150" alt="" />
+                                <img class="head-image up-left circle" src="images/img/upleft.png" width="150" height="150" alt="" />
+                                <img class="head-image left circle" src="images/img/left.png" width="150" height="150" alt="" />
+                                <img class="head-image down-left circle" src="images/img/downleft.png" width="150" height="150" alt="" />
+                                <img class="head-image down circle" src="images/img/down.png" width="150" height="150" alt="" />
+                                <img class="head-image down-right circle" src="images/img/downright.png" width="150" height="150" alt="" />
+                                <img class="head-image right circle" src="images/img/right.png" width="150" height="150" alt="" />
+                                <img class="head-image up-right circle" src="images/img/upright.png" width="150" height="150" alt="" />
+                                <img class="head-image front circle" src="images/img/front.png" width="150" height="150" alt="" />
+                            </div>
+                            <!-- style for simple image profile -->		
+                       	    <div class="circle-img" id="pic_prof_2" style="display:none"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- End Profile Image -->
+                        <!-- Begin profile information -->
+                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                            <img src="images/signatureJaune.png" width="95%"/>
+                            <!-- Profile info -->
+                            <div id="profile_desc" style="margin-top:-5px">
+                                <img src="images/titre3.png" width="100%"/>
+                                <hr width="50%" style="border-color:#93a1a1">
+                                <img src="images/titre2.png" width="100%"/>
+                            </div>
+                            <!-- End Profile info -->  
+    	               </div>
+                   </div>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                            <div id="profile_social" style="margin-top:-4.25px; margin-left:-2px">
+                                <a href="{{site.scholar}}" target="_blank"><i class="ai ai-google-scholar"></i></a>
+                                <a href="{{site.twitter}}" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="{{site.linkedin}}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="{{site.researchgate}}" target="_blank"><i class="ai ai-researchgate"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                            <div id="profile_social" style="margin-top:-4.25px; margin-left:-2px">
+                                <a href="{{site.osf}}" target="_blank"><i class="ai ai-osf"></i></a>
+                                <a href="{{site.dblp}}" target="_blank"><i class="ai ai-dblp"></i></a>
+                                <a href="{{site.stack}}" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                                <a href="{{site.impactstory}}" target="_blank"><i class="ai ai-impactstory"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-9 col-xs-12">
+                            <div id="profile_social" style="margin-top:-4.25px; margin-left:-2px">
+                                <a href="{{site.orcid}}" target="_blank"><i class="ai ai-orcid"></i></a>
+                                <a href="{{site.github}}" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="{{site.figshare}}" target="_blank"><i class="ai ai-figshare"></i></a>
+                                <a href="{{site.publons}}" target="_blank"><i class="ai ai-publons"></i></a>
+                            </div>
+                        </div> 
+                    </div>                                      
+                </div> 
+                <div class="col-md-9 flexy_content" style="background-color: #002b36">
+                    <!-- verticalTab menu -->
+                    <div id="verticalTab">
+                        <ul class="resp-tabs-list">
+                            <li class="tabs-profile" data-tab-name="profile">
+                                <span class="tite-list">profile</span>
+                                <i class="fas fa-home icon_menu icon_menu_active"></i>
+                            </li>
+                            <li class="tabs-resume" data-tab-name="resume"> 
+                                <span class="tite-list">resume</span>
+                                <i class="far fa-id-badge icon_menu"></i>
+                            </li>
+                            <li class="tabs-portfolio" data-tab-name="portfolio"> 
+                                <span class="tite-list">portfolio</span>
+                                <i class="far fa-newspaper icon_menu"></i>
+                            </li>
+                            <li class="tabs-blog" data-tab-name="blog">
+                                <span class="tite-list">blog</span>
+                                <i class="far fa-comment icon_menu"></i>
+                            </li>
+                            <li class="tabs-cv" data-tab-name="cv"> 
+                                <span class="tite-list">cv</span>
+                                <i class="ai ai-cv icon_menu"></i> 
+                            </li>
+                        </ul>
+                    <!-- resp-tabs-container --> 
+                        <div class="resp-tabs-container">
+                            {% include /profile.html %}
+                            {% include /resume.html %}
+                            {% include /portfolio.html %}
+                            {% include /blog.html %}
+                            {% include /cv.html %}
+                        </div>
+                <!-- End #resp-tabs-container --> 
+                    </div><!-- End verticalTab -->
+                </div><!-- End flexy_content -->
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </section><!-- End Content -->
+</div>
