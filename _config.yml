@@ -1,23 +1,27 @@
 
 title: My Resume
-url: 'http://junlulocky.com'
-baseurl: '/PanelCV' #change it according to your repository name
 
 
 
 # Profile information
-yourname: Brown Smith  ## put your name
-title: 'GRAPHIC &amp; WEB DESIGNER'  ## your title
-location: San Francisco , CA
+yourname: Maxime Sainte-Marie, Ph.D.  ## put your name
+location: Université du Québec à Montréal
 
 
 ## Social Profiles
 facebook: http://www.facebook.com  ## your facebook account url
 twitter: http://www.twitter.com  ## your twitter account url
-linkedin: http://www.linkedin.com  ## your linkedin account url
-dribbble: http://www.dribble.com  ## you dribbble account url
-foursquare: http://www.foursquare.com  ## your foursquare account url
-
-
-
-# Update all the sections by editing the files inside _includes folder.
+linkedin: https://linkedin.com/in/maximesaintemarie  ## your linkedin account url
+researchgate: https://www.researchgate.net/profile/Maxime_Sainte-Marie
+scholar: https://scholar.google.ca/citations?user=Vu6FKGIAAAAJ&hl=en
+mendeley: https://www.mendeley.com/profiles/maxime-sainte-marie/
+zotero: https://www.zotero.org/maxime
+osf: https://osf.io/wfuv3/
+dblp: http://dblp.uni-trier.de/pers/hd/s/Sainte=Marie:Maxime_B=
+stack: https://stackoverflow.com/users/6149562/maxime-sainte-marie?tab=profile
+twitter: https://twitter.com/injuwanijuwa
+impactstory: https://profiles.impactstory.org/u/0000-0002-0760-0290
+orcid: //orcid.org/0000-0002-0760-0290
+github: https://github.com/msaintemarie
+figshare: https://figshare.com/authors/Maxime_Sainte-Marie/3205929
+publons: https://publons.com/author/1315493/maxime-sainte-marie#profile
