@@ -94,7 +94,21 @@ function flip() {
     $('.card').toggleClass('flipped');
 }
 
+jQuery(document).ready(function() {
+    jQuery('.tabs .tab-links a').on('click', function(e) {
+        var currentAttrValue = jQuery(this).attr('href');
+
+        // Show/Hide Tabs
+        jQuery('.tabs ' + currentAttrValue).slideDown(400).siblings().slideUp(400);
+
+        // Change/remove current tab to active
+        jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
+
+        e.preventDefault();
+    });
+});
+
+// Show/Hide Tabs
+
+
 </script>
-<!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
